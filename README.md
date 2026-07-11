@@ -7,7 +7,7 @@ https://kulimar.github.io/KaiCollection/ (GitHub Pages, `gh-pages` branch — ga
 
 ## Features
 - Masonry gallery with category filters (Lego / Paper Craft / Art), search, and sort
-- Lightbox with keyboard/touch navigation and a 30-second auto-advance slideshow timer
+- Lightbox with keyboard/touch navigation and a 10-second auto-advance slideshow timer
 - Looping background music with fade-in, mute toggle, and volume slider
 - Responsive, respects `prefers-reduced-motion`
 

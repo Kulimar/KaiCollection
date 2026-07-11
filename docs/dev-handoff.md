@@ -8,7 +8,7 @@ Living log. Newest session on top: what changed, what's live, what's next, what 
 
 **What changed**
 - Volume control: floating button (bottom-right) toggles mute; hovering/focusing it expands a volume slider (`index.html`, `js/audio.js`, `css/gallery.css`). Fade-in now targets the slider volume.
-- Lightbox slideshow: a red line under the info row drains over 30s, then auto-advances to the next image, looping through the visible set. Manual nav or reopen restarts it; closing stops it (`js/gallery.js`).
+- Lightbox slideshow: a red line under the info row drains over 10s (was 30s, shortened same day at Kaz's request), then auto-advances to the next image, looping through the visible set. Manual nav or reopen restarts it; closing stops it (`js/gallery.js`).
 - **Publish decision:** Kaz explicitly approved pushing everything to `main` and publishing the gallery via GitHub Pages. Recorded in CLAUDE.md; removed the `git push`/`gh api` deny rules from `.claude/settings.json` accordingly.
 - Rewrote README for the renamed site (Master Builder — KaiCollections) with the live Pages link.
 - Created orphan `gh-pages` branch containing ONLY the public gallery: `index.html`, `css/gallery.css`, `js/gallery.js`, `js/audio.js`, `content/creations.json`, `images/kai/`, `audio/`, `.nojekyll`. No manager, no server, no docs/tasks/.claude.
