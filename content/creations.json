@@ -1,0 +1,713 @@
+{
+  "items": [
+    {
+      "id": "duplo-tower-with-bridge-arch",
+      "title": "Duplo Tower with Bridge Arch",
+      "category": "lego",
+      "date": "2025-05-11",
+      "dateSource": "exif",
+      "tags": [
+        "duplo",
+        "tower",
+        "bridge",
+        "early-build"
+      ],
+      "order": 1,
+      "featured": true,
+      "image": "images/kai/duplo-tower-with-bridge-arch.jpg",
+      "thumb": "images/kai/thumbs/duplo-tower-with-bridge-arch.jpg",
+      "alt": "Kai's Duplo Tower with Bridge Arch"
+    },
+    {
+      "id": "duplo-wall-build-at-indoor-playground",
+      "title": "Duplo Wall Build at Indoor Playground",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "duplo",
+        "playground",
+        "wall"
+      ],
+      "order": 2,
+      "featured": true,
+      "image": "images/kai/duplo-wall-build-at-indoor-playground.jpg",
+      "thumb": "images/kai/thumbs/duplo-wall-build-at-indoor-playground.jpg",
+      "alt": "Kai's Duplo Wall Build at Indoor Playground"
+    },
+    {
+      "id": "robot-minifigure-lineup",
+      "title": "Robot Minifigure Lineup",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minifigures",
+        "robots"
+      ],
+      "order": 3,
+      "featured": true,
+      "image": "images/kai/robot-minifigure-lineup.jpg",
+      "thumb": "images/kai/thumbs/robot-minifigure-lineup.jpg",
+      "alt": "Kai's Robot Minifigure Lineup"
+    },
+    {
+      "id": "rainbow-duplo-block-train",
+      "title": "Rainbow Duplo Block Train",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "duplo",
+        "train",
+        "rainbow",
+        "colorful"
+      ],
+      "order": 4,
+      "featured": true,
+      "image": "images/kai/rainbow-duplo-block-train.jpg",
+      "thumb": "images/kai/thumbs/rainbow-duplo-block-train.jpg",
+      "alt": "Kai's Rainbow Duplo Block Train"
+    },
+    {
+      "id": "minecraft-style-village-build",
+      "title": "Minecraft-Style Village Build",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "village",
+        "minifigures"
+      ],
+      "order": 5,
+      "featured": true,
+      "image": "images/kai/minecraft-style-village-build.jpg",
+      "thumb": "images/kai/thumbs/minecraft-style-village-build.jpg",
+      "alt": "Kai's Minecraft-Style Village Build"
+    },
+    {
+      "id": "minecraft-village-with-minifigures",
+      "title": "Minecraft Village with Minifigures",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "village",
+        "desk-build"
+      ],
+      "order": 6,
+      "featured": true,
+      "image": "images/kai/minecraft-village-with-minifigures.jpg",
+      "thumb": "images/kai/thumbs/minecraft-village-with-minifigures.jpg",
+      "alt": "Kai's Minecraft Village with Minifigures"
+    },
+    {
+      "id": "orange-and-blue-builds",
+      "title": "Orange and Blue Builds",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "colorful",
+        "held-up"
+      ],
+      "order": 7,
+      "featured": false,
+      "image": "images/kai/orange-and-blue-builds.jpg",
+      "thumb": "images/kai/thumbs/orange-and-blue-builds.jpg",
+      "alt": "Kai's Orange and Blue Builds"
+    },
+    {
+      "id": "green-and-orange-pyramid-build",
+      "title": "Green and Orange Pyramid Build",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "pyramid",
+        "geometric"
+      ],
+      "order": 8,
+      "featured": false,
+      "image": "images/kai/green-and-orange-pyramid-build.jpg",
+      "thumb": "images/kai/thumbs/green-and-orange-pyramid-build.jpg",
+      "alt": "Kai's Green and Orange Pyramid Build"
+    },
+    {
+      "id": "blue-and-white-airplane-build",
+      "title": "Blue and White Airplane Build",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "airplane",
+        "vehicle",
+        "blue-white"
+      ],
+      "order": 9,
+      "featured": false,
+      "image": "images/kai/blue-and-white-airplane-build.jpg",
+      "thumb": "images/kai/thumbs/blue-and-white-airplane-build.jpg",
+      "alt": "Kai's Blue and White Airplane Build"
+    },
+    {
+      "id": "wooden-train-track-play-table",
+      "title": "Wooden Train Track Play Table",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "trains",
+        "wooden-track",
+        "toy-store"
+      ],
+      "order": 10,
+      "featured": false,
+      "image": "images/kai/wooden-train-track-play-table.jpg",
+      "thumb": "images/kai/thumbs/wooden-train-track-play-table.jpg",
+      "alt": "Kai's Wooden Train Track Play Table"
+    },
+    {
+      "id": "airplane-build-on-display",
+      "title": "Airplane Build on Display",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "airplane",
+        "vehicle",
+        "display"
+      ],
+      "order": 11,
+      "featured": false,
+      "image": "images/kai/airplane-build-on-display.jpg",
+      "thumb": "images/kai/thumbs/airplane-build-on-display.jpg",
+      "alt": "Kai's Airplane Build on Display"
+    },
+    {
+      "id": "blue-and-white-spaceship",
+      "title": "Blue and White Spaceship",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "spaceship",
+        "held",
+        "close-up"
+      ],
+      "order": 12,
+      "featured": false,
+      "image": "images/kai/blue-and-white-spaceship.jpg",
+      "thumb": "images/kai/thumbs/blue-and-white-spaceship.jpg",
+      "alt": "Kai's Blue and White Spaceship"
+    },
+    {
+      "id": "minecraft-build-on-colorful-mat",
+      "title": "Minecraft Build on Colorful Mat",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "minifigures"
+      ],
+      "order": 13,
+      "featured": false,
+      "image": "images/kai/minecraft-build-on-colorful-mat.jpg",
+      "thumb": "images/kai/thumbs/minecraft-build-on-colorful-mat.jpg",
+      "alt": "Kai's Minecraft Build on Colorful Mat"
+    },
+    {
+      "id": "toy-helicopter-build",
+      "title": "Toy Helicopter Build",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "helicopter",
+        "vehicle"
+      ],
+      "order": 14,
+      "featured": false,
+      "image": "images/kai/toy-helicopter-build.jpg",
+      "thumb": "images/kai/thumbs/toy-helicopter-build.jpg",
+      "alt": "Kai's Toy Helicopter Build"
+    },
+    {
+      "id": "building-at-the-desk",
+      "title": "Building at the Desk",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "desk",
+        "in-progress",
+        "storage-bin"
+      ],
+      "order": 15,
+      "featured": false,
+      "image": "images/kai/building-at-the-desk.jpg",
+      "thumb": "images/kai/thumbs/building-at-the-desk.jpg",
+      "alt": "Kai's Building at the Desk"
+    },
+    {
+      "id": "minecraft-pixel-style-builds",
+      "title": "Minecraft Pixel-Style Builds",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "pixel-art",
+        "sword"
+      ],
+      "order": 16,
+      "featured": false,
+      "image": "images/kai/minecraft-pixel-style-builds.jpg",
+      "thumb": "images/kai/thumbs/minecraft-pixel-style-builds.jpg",
+      "alt": "Kai's Minecraft Pixel-Style Builds"
+    },
+    {
+      "id": "minecraft-hut-build",
+      "title": "Minecraft Hut Build",
+      "category": "lego",
+      "date": "2025-05-11",
+      "dateSource": "exif",
+      "tags": [
+        "minecraft",
+        "hut"
+      ],
+      "order": 17,
+      "featured": false,
+      "image": "images/kai/minecraft-hut-build.jpg",
+      "thumb": "images/kai/thumbs/minecraft-hut-build.jpg",
+      "alt": "Kai's Minecraft Hut Build"
+    },
+    {
+      "id": "minecraft-villager-hut-with-minifigures",
+      "title": "Minecraft Villager Hut with Minifigures",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "hut",
+        "minifigures"
+      ],
+      "order": 18,
+      "featured": false,
+      "image": "images/kai/minecraft-villager-hut-with-minifigures.jpg",
+      "thumb": "images/kai/thumbs/minecraft-villager-hut-with-minifigures.jpg",
+      "alt": "Kai's Minecraft Villager Hut with Minifigures"
+    },
+    {
+      "id": "minecraft-blue-roofed-hut",
+      "title": "Minecraft Blue-Roofed Hut",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "hut",
+        "blue-roof"
+      ],
+      "order": 19,
+      "featured": false,
+      "image": "images/kai/minecraft-blue-roofed-hut.jpg",
+      "thumb": "images/kai/thumbs/minecraft-blue-roofed-hut.jpg",
+      "alt": "Kai's Minecraft Blue-Roofed Hut"
+    },
+    {
+      "id": "minecraft-build-with-instructions",
+      "title": "Minecraft Build with Instructions",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "instructions"
+      ],
+      "order": 20,
+      "featured": false,
+      "image": "images/kai/minecraft-build-with-instructions.jpg",
+      "thumb": "images/kai/thumbs/minecraft-build-with-instructions.jpg",
+      "alt": "Kai's Minecraft Build with Instructions"
+    },
+    {
+      "id": "minecraft-diorama-display",
+      "title": "Minecraft Diorama Display",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "diorama",
+        "display-case"
+      ],
+      "order": 21,
+      "featured": false,
+      "image": "images/kai/minecraft-diorama-display.jpg",
+      "thumb": "images/kai/thumbs/minecraft-diorama-display.jpg",
+      "alt": "Kai's Minecraft Diorama Display"
+    },
+    {
+      "id": "minecraft-terrain-mosaic",
+      "title": "Minecraft Terrain Mosaic",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "terrain",
+        "overhead",
+        "large-build"
+      ],
+      "order": 22,
+      "featured": false,
+      "image": "images/kai/minecraft-terrain-mosaic.jpg",
+      "thumb": "images/kai/thumbs/minecraft-terrain-mosaic.jpg",
+      "alt": "Kai's Minecraft Terrain Mosaic"
+    },
+    {
+      "id": "building-large-minecraft-terrain",
+      "title": "Building Large Minecraft Terrain",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "terrain",
+        "in-progress"
+      ],
+      "order": 23,
+      "featured": false,
+      "image": "images/kai/building-large-minecraft-terrain.jpg",
+      "thumb": "images/kai/thumbs/building-large-minecraft-terrain.jpg",
+      "alt": "Kai's Building Large Minecraft Terrain"
+    },
+    {
+      "id": "minecraft-castle-wall",
+      "title": "Minecraft Castle Wall",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "castle",
+        "towers"
+      ],
+      "order": 24,
+      "featured": false,
+      "image": "images/kai/minecraft-castle-wall.jpg",
+      "thumb": "images/kai/thumbs/minecraft-castle-wall.jpg",
+      "alt": "Kai's Minecraft Castle Wall"
+    },
+    {
+      "id": "minecraft-pixel-art-wall",
+      "title": "Minecraft Pixel Art Wall",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "pixel-art",
+        "wall"
+      ],
+      "order": 25,
+      "featured": false,
+      "image": "images/kai/minecraft-pixel-art-wall.jpg",
+      "thumb": "images/kai/thumbs/minecraft-pixel-art-wall.jpg",
+      "alt": "Kai's Minecraft Pixel Art Wall"
+    },
+    {
+      "id": "minecraft-multi-tier-tower",
+      "title": "Minecraft Multi-Tier Tower",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "tower"
+      ],
+      "order": 26,
+      "featured": false,
+      "image": "images/kai/minecraft-multi-tier-tower.jpg",
+      "thumb": "images/kai/thumbs/minecraft-multi-tier-tower.jpg",
+      "alt": "Kai's Minecraft Multi-Tier Tower"
+    },
+    {
+      "id": "geometric-paper-shapes",
+      "title": "Geometric Paper Shapes",
+      "category": "art",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "geometric",
+        "paper",
+        "shapes"
+      ],
+      "order": 27,
+      "featured": false,
+      "image": "images/kai/geometric-paper-shapes.jpg",
+      "thumb": "images/kai/thumbs/geometric-paper-shapes.jpg",
+      "alt": "Kai's Geometric Paper Shapes"
+    },
+    {
+      "id": "toy-robot-held-on-bed",
+      "title": "Toy Robot Held on Bed",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "robot",
+        "held"
+      ],
+      "order": 28,
+      "featured": false,
+      "image": "images/kai/toy-robot-held-on-bed.jpg",
+      "thumb": "images/kai/thumbs/toy-robot-held-on-bed.jpg",
+      "alt": "Kai's Toy Robot Held on Bed"
+    },
+    {
+      "id": "magnetic-tile-castle",
+      "title": "Magnetic Tile Castle",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "magnetic-tiles",
+        "castle",
+        "colorful"
+      ],
+      "order": 29,
+      "featured": false,
+      "image": "images/kai/magnetic-tile-castle.jpg",
+      "thumb": "images/kai/thumbs/magnetic-tile-castle.jpg",
+      "alt": "Kai's Magnetic Tile Castle"
+    },
+    {
+      "id": "pixel-art-face-wall",
+      "title": "Pixel-Art Face Wall",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "pixel-art",
+        "face"
+      ],
+      "order": 30,
+      "featured": false,
+      "image": "images/kai/pixel-art-face-wall.jpg",
+      "thumb": "images/kai/thumbs/pixel-art-face-wall.jpg",
+      "alt": "Kai's Pixel-Art Face Wall"
+    },
+    {
+      "id": "helicopter-and-truck-build",
+      "title": "Helicopter and Truck Build",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "helicopter",
+        "truck",
+        "vehicle"
+      ],
+      "order": 31,
+      "featured": false,
+      "image": "images/kai/helicopter-and-truck-build.jpg",
+      "thumb": "images/kai/thumbs/helicopter-and-truck-build.jpg",
+      "alt": "Kai's Helicopter and Truck Build"
+    },
+    {
+      "id": "orange-dragon-build",
+      "title": "Orange Dragon Build",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "dragon",
+        "orange",
+        "portrait"
+      ],
+      "order": 32,
+      "featured": false,
+      "image": "images/kai/orange-dragon-build.jpg",
+      "thumb": "images/kai/thumbs/orange-dragon-build.jpg",
+      "alt": "Kai's Orange Dragon Build"
+    },
+    {
+      "id": "building-minecraft-village-together",
+      "title": "Building Minecraft Village Together",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "minecraft",
+        "village",
+        "family"
+      ],
+      "order": 33,
+      "featured": false,
+      "image": "images/kai/building-minecraft-village-together.jpg",
+      "thumb": "images/kai/thumbs/building-minecraft-village-together.jpg",
+      "alt": "Kai's Building Minecraft Village Together"
+    },
+    {
+      "id": "colorful-block-tower",
+      "title": "Colorful Block Tower",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "tower",
+        "colorful",
+        "portrait"
+      ],
+      "order": 34,
+      "featured": false,
+      "image": "images/kai/colorful-block-tower.jpg",
+      "thumb": "images/kai/thumbs/colorful-block-tower.jpg",
+      "alt": "Kai's Colorful Block Tower"
+    },
+    {
+      "id": "multi-color-dragon-build",
+      "title": "Multi-Color Dragon Build",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "dragon",
+        "complex-build"
+      ],
+      "order": 35,
+      "featured": false,
+      "image": "images/kai/multi-color-dragon-build.jpg",
+      "thumb": "images/kai/thumbs/multi-color-dragon-build.jpg",
+      "alt": "Kai's Multi-Color Dragon Build"
+    },
+    {
+      "id": "pokemon-lego-display",
+      "title": "Pokemon Lego Display",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "pokemon",
+        "squirtle",
+        "charmander",
+        "bulbasaur",
+        "display"
+      ],
+      "order": 36,
+      "featured": false,
+      "image": "images/kai/pokemon-lego-display.jpg",
+      "thumb": "images/kai/thumbs/pokemon-lego-display.jpg",
+      "alt": "Kai's Pokemon Lego Display"
+    },
+    {
+      "id": "pokemon-build-portrait",
+      "title": "Pokemon Build Portrait",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "pokemon",
+        "portrait",
+        "smiling"
+      ],
+      "order": 37,
+      "featured": false,
+      "image": "images/kai/pokemon-build-portrait.jpg",
+      "thumb": "images/kai/thumbs/pokemon-build-portrait.jpg",
+      "alt": "Kai's Pokemon Build Portrait"
+    },
+    {
+      "id": "pokemon-card-collection",
+      "title": "Pokemon Card Collection",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "pokemon",
+        "cards",
+        "collection"
+      ],
+      "order": 38,
+      "featured": false,
+      "image": "images/kai/pokemon-card-collection.jpg",
+      "thumb": "images/kai/thumbs/pokemon-card-collection.jpg",
+      "alt": "Kai's Pokemon Card Collection"
+    },
+    {
+      "id": "gyarados-build-finished-display",
+      "title": "Gyarados Build Finished Display",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "pokemon",
+        "gyarados",
+        "dragon",
+        "display"
+      ],
+      "order": 39,
+      "featured": false,
+      "image": "images/kai/gyarados-build-finished-display.jpg",
+      "thumb": "images/kai/thumbs/gyarados-build-finished-display.jpg",
+      "alt": "Kai's Gyarados Build Finished Display"
+    },
+    {
+      "id": "gyarados-build-on-carpet",
+      "title": "Gyarados Build on Carpet",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "pokemon",
+        "gyarados",
+        "dragon"
+      ],
+      "order": 40,
+      "featured": false,
+      "image": "images/kai/gyarados-build-on-carpet.jpg",
+      "thumb": "images/kai/thumbs/gyarados-build-on-carpet.jpg",
+      "alt": "Kai's Gyarados Build on Carpet"
+    },
+    {
+      "id": "paper-ambulance-craft",
+      "title": "Paper Ambulance Craft",
+      "category": "paper",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "paper-craft",
+        "vehicle",
+        "ambulance"
+      ],
+      "order": 41,
+      "featured": false,
+      "image": "images/kai/paper-ambulance-craft.jpg",
+      "thumb": "images/kai/thumbs/paper-ambulance-craft.jpg",
+      "alt": "Kai's Paper Ambulance Craft"
+    },
+    {
+      "id": "small-toy-portrait",
+      "title": "Small Toy Portrait",
+      "category": "lego",
+      "date": "",
+      "dateSource": "unknown",
+      "tags": [
+        "portrait",
+        "smiling"
+      ],
+      "order": 42,
+      "featured": false,
+      "image": "images/kai/small-toy-portrait.jpg",
+      "thumb": "images/kai/thumbs/small-toy-portrait.jpg",
+      "alt": "Kai's Small Toy Portrait"
+    }
+  ]
+}
