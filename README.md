@@ -1,26 +1,31 @@
-# Gallery
+# Master Builder — KaiCollections
 
-A simple gallery that displays images from the local `images` directory. The
-list of files is read from `images-list.json`. If that file can't be loaded the
-gallery falls back to a predefined set of URLs.
+A visual, searchable gallery of Kai's Lego builds, paper crafts, and art. Data-driven from `content/creations.json`, zero dependencies, plain static HTML/CSS/JS.
 
-## Running locally
+## Live site
+https://kulimar.github.io/KaiCollection/ (GitHub Pages, `gh-pages` branch — gallery only)
 
-You can simply open `index.html` in a browser or start the optional Node
-server for convenience:
+## Features
+- Masonry gallery with category filters (Lego / Paper Craft / Art), search, and sort
+- Lightbox with keyboard/touch navigation and a 30-second auto-advance slideshow timer
+- Looping background music with fade-in, mute toggle, and volume slider
+- Responsive, respects `prefers-reduced-motion`
 
+## Run locally
 ```bash
-npm install
 npm start
 ```
+Then open http://localhost:3000.
 
-Open `http://localhost:3000` in your browser if running the server.
+## Content manager (local only)
+`manager.html` + `manager-server.js` provide drag-and-drop import, reorder, and caption/date editing. These are **never published** — they exist only on `main` and run only on localhost.
 
-## Likes API
+## Working docs
+- `CLAUDE.md` — project constitution and privacy rules
+- `docs/system-architecture.md` — architecture
+- `docs/dev-handoff.md` — current state and next steps
+- `tasks/todo.md` — working plan
+- `tasks/lessons.md` — root-cause rules
 
-The gallery displays a heart icon on each image. Like counts are retrieved from
-`/api/likes` and updated using the **same** `/api/likes` endpoint with `POST`
-and `DELETE` requests. A sample serverless function is provided in
-`functions/likes.js` together with a JSON file used for persistence during local
-development. When deploying to a platform like Netlify, expose the function at
-`/api/likes` for all HTTP verbs and point the front-end to that URL.
+## Privacy
+Published images are curated web derivatives with all EXIF (including GPS) stripped. Original photos live outside this repository and are never committed.

@@ -1,24 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kai's Lego & Minecraft Creations</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Master Builder — KaiCollections</title>
+<meta name="description" content="Master Builder — KaiCollections: a gallery of Kai's Lego builds, paper crafts, and art.">
+<link rel="stylesheet" href="css/gallery.css">
 </head>
 <body>
-    <div id="particle-bg" aria-hidden="true"></div>
-    <button id="theme-toggle" aria-label="Toggle color mode">
-        <i id="theme-icon" data-lucide="moon"></i>
-    </button>
-    <div id="loading-container" class="loading-container hidden">
-        <div id="loading-bar"></div>
-    </div>
-    <audio id="bg-music" src="audio/eMastered_WooSong.mp3" preload="auto"></audio>
-    <h1>Lego & Minecraft Gallery</h1>
-    <div class="gallery"></div>
+  <a class="skip-link" href="#gallery">Skip to gallery</a>
 
-    <script src="script.js"></script>
+  <header class="site-header">
+    <span class="doodle doodle--star" aria-hidden="true">★</span>
+    <span class="doodle doodle--scribble" aria-hidden="true">〜〜</span>
+    <span class="doodle doodle--dot" aria-hidden="true">●</span>
+
+    <span class="brand-mark"><span class="brand-mark__dot" aria-hidden="true"></span> Kai's Studio</span>
+    <h1 class="site-title">Master <span class="highlight">Builder</span></h1>
+    <p class="site-subtitle">KaiCollections</p>
+  </header>
+
+  <section class="controls" aria-label="Gallery filters">
+    <div class="chip-row" role="group" aria-label="Filter by category">
+      <button class="chip is-active" data-cat="all" aria-pressed="true">All <span class="count" id="count-all"></span></button>
+      <button class="chip" data-cat="lego" aria-pressed="false">🧱 Lego <span class="count" id="count-lego"></span></button>
+      <button class="chip" data-cat="paper" aria-pressed="false">✂️ Paper Craft <span class="count" id="count-paper"></span></button>
+      <button class="chip" data-cat="art" aria-pressed="false">🎨 Art <span class="count" id="count-art"></span></button>
+    </div>
+
+    <div class="tool-row">
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <label class="sr-only" for="search-input" style="position:absolute;left:-9999px;">Search creations</label>
+        <input id="search-input" type="search" placeholder="Search titles or tags...">
+      </div>
+      <div class="sort-wrap">
+        <label class="sr-only" for="sort-select" style="position:absolute;left:-9999px;">Sort creations</label>
+        <select id="sort-select">
+          <option value="order">My order</option>
+          <option value="date-desc">Newest first</option>
+          <option value="date-asc">Oldest first</option>
+          <option value="title-asc">Title A–Z</option>
+        </select>
+      </div>
+    </div>
+    <p class="result-count" id="result-count" aria-live="polite"></p>
+  </section>
+
+  <main id="gallery" class="gallery" aria-live="polite"></main>
+
+  <div class="empty-state" id="empty-state">
+    <h2>Nothing here yet!</h2>
+    <p>Try a different search word or pick another category.</p>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+    <button class="lightbox__close" id="lightbox-close" aria-label="Close">✕</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" aria-label="Previous creation">‹</button>
+    <button class="lightbox__nav lightbox__nav--next" id="lightbox-next" aria-label="Next creation">›</button>
+    <div class="lightbox__panel">
+      <div class="lightbox__media"><img id="lightbox-img" src="" alt=""></div>
+      <div class="lightbox__body">
+        <h2 class="lightbox__title" id="lightbox-title"></h2>
+        <p class="lightbox__meta" id="lightbox-meta"></p>
+        <div class="lightbox__tags" id="lightbox-tags"></div>
+      </div>
+      <div class="lightbox__timer" aria-hidden="true"><div class="lightbox__timer-bar" id="lightbox-timer-bar"></div></div>
+    </div>
+  </div>
+
+  <div class="music-control" id="music-control">
+    <label class="sr-only" for="music-slider" style="position:absolute;left:-9999px;">Music volume</label>
+    <input class="music-control__slider" id="music-slider" type="range" min="0" max="100" value="30">
+    <button class="music-control__btn" id="music-toggle" aria-label="Mute music" aria-pressed="false">🔊</button>
+  </div>
+
+  <footer class="site-footer">
+    Made with <span class="heart">♥</span> for Kai's creativity.
+  </footer>
+
+  <script src="js/gallery.js"></script>
+  <script src="js/audio.js"></script>
 </body>
 </html>

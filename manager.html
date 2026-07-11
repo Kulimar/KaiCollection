@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kai's Creations — Content Manager (Local Only)</title>
+<style>
+  :root {
+    --ink: #2B2320; --ink-soft: #6B5F55; --cream: #FFFBF2; --paper: #FFFFFF;
+    --lego: #E8412C; --paper-c: #F4A227; --art: #2F8FE0; --purple: #9B5DE0;
+    --border: rgba(43,35,32,0.14);
+  }
+  * { box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--cream); color: var(--ink); margin: 0; padding: 24px; }
+  .banner { background: var(--ink); color: #fff; padding: 10px 18px; border-radius: 10px; font-weight: 700; margin-bottom: 20px; text-align: center; }
+  h1 { font-size: 1.6rem; }
+  .layout { display: grid; grid-template-columns: 340px 1fr; gap: 24px; align-items: start; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+  .panel { background: var(--paper); border-radius: 16px; padding: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
+  .dropzone {
+    border: 3px dashed var(--border); border-radius: 14px; padding: 34px 16px; text-align: center;
+    color: var(--ink-soft); font-weight: 600; cursor: pointer; transition: border-color 0.15s ease, background 0.15s ease;
+  }
+  .dropzone.is-dragover { border-color: var(--purple); background: rgba(155,93,224,0.06); }
+  .dropzone input { display: none; }
+  .status-line { font-size: 0.85rem; color: var(--ink-soft); margin-top: 10px; min-height: 1.2em; }
+  .item-list { list-style: none; margin: 0; padding: 0; }
+  .item-row {
+    display: grid; grid-template-columns: 90px 1fr auto; gap: 14px; align-items: start;
+    background: var(--paper); border: 1px solid var(--border); border-radius: 14px; padding: 14px;
+    margin-bottom: 14px; cursor: grab;
+  }
+  .item-row.dragging { opacity: 0.4; }
+  .item-row img { width: 90px; height: 90px; object-fit: cover; border-radius: 10px; background: #f2ede2; }
+  .item-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; }
+  .item-fields label { font-size: 0.72rem; font-weight: 700; color: var(--ink-soft); display: block; margin-bottom: 2px; }
+  .item-fields input, .item-fields select { width: 100%; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--border); font-size: 0.85rem; font-family: inherit; }
+  .full-row { grid-column: 1 / -1; }
+  .item-actions { display: flex; flex-direction: column; gap: 8px; align-items: flex-end; }
+  button { font-family: inherit; cursor: pointer; }
+  .btn { border: none; border-radius: 999px; padding: 8px 16px; font-weight: 700; color: #fff; background: var(--ink); }
+  .btn.danger { background: var(--lego); }
+  .btn.primary { background: var(--purple); }
+  .btn.small { padding: 5px 12px; font-size: 0.8rem; }
+  .exif-badge { font-size: 0.68rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; background: #eee; color: var(--ink-soft); display: inline-block; margin-top: 4px; }
+  .exif-badge.exif { background: rgba(47,143,224,0.15); color: var(--art); }
+  .exif-badge.manual { background: rgba(244,162,39,0.18); color: var(--paper-c); }
+  .exif-badge.unknown { background: rgba(232,65,44,0.12); color: var(--lego); }
+  .toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; gap: 10px; flex-wrap: wrap; }
+  .save-status { font-weight: 700; font-size: 0.85rem; }
+  .save-status.ok { color: #2c8a4d; }
+  .save-status.err { color: var(--lego); }
+  .checkbox-row { display: flex; align-items: center; gap: 6px; font-size: 0.8rem; font-weight: 700; color: var(--ink-soft); }
+  .checkbox-row input { width: auto; }
+</style>
+</head>
+<body>
+  <div class="banner">🔒 LOCAL-ONLY CONTENT MANAGER — never link this from the public gallery. Run via <code>node manager-server.js</code>.</div>
+  <h1>Kai's Creations — Manager</h1>
+
+  <div class="layout">
+    <div class="panel">
+      <h2 style="margin-top:0; font-size:1.1rem;">Add creation</h2>
+      <div class="dropzone" id="dropzone" tabindex="0">
+        Drag &amp; drop an image here, or click to choose a file.
+        <input type="file" id="file-input" accept="image/*">
+      </div>
+      <p class="status-line" id="upload-status"></p>
+      <p class="status-line">EXIF capture date is read automatically from JPEGs when present. If it's missing, the date stays blank until you enter one manually — we never invent a date.</p>
+    </div>
+
+    <div class="panel">
+      <div class="toolbar">
+        <h2 style="margin:0; font-size:1.1rem;">Creations (drag rows to reorder)</h2>
+        <div>
+          <button class="btn primary" id="save-btn">Save to creations.json</button>
+          <span class="save-status" id="save-status"></span>
+        </div>
+      </div>
+      <ul class="item-list" id="item-list"></ul>
+    </div>
+  </div>
+
+  <script src="js/exif-reader.js"></script>
+  <script src="js/manager.js"></script>
+</body>
+</html>

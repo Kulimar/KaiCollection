@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 850">
+  <defs>
+    <linearGradient id="bgc5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF2DE"/>
+      <stop offset="1" stop-color="#FCE0AE"/>
+    </linearGradient>
+  </defs>
+  <rect width="650" height="850" fill="url(#bgc5)"/>
+  <g>
+    <polygon points="325,220 460,420 190,420" fill="#F4A227" stroke="#C9821C" stroke-width="5"/>
+    <polygon points="325,220 400,420 325,420" fill="#E8A93E"/>
+    <polygon points="190,420 460,420 400,620 250,620" fill="#F4A227" stroke="#C9821C" stroke-width="5"/>
+    <polygon points="325,420 400,620 325,620" fill="#E8A93E"/>
+    <polygon points="190,420 130,300 245,340" fill="#F4A227" stroke="#C9821C" stroke-width="5"/>
+    <polygon points="460,420 520,300 405,340" fill="#F4A227" stroke="#C9821C" stroke-width="5"/>
+    <polygon points="250,620 200,760 300,700" fill="#F4A227" stroke="#C9821C" stroke-width="5"/>
+    <polygon points="400,620 450,760 350,700" fill="#F4A227" stroke="#C9821C" stroke-width="5"/>
+    <polygon points="325,220 300,150 350,150" fill="#F4A227"/>
+    <circle cx="290" cy="330" r="8" fill="#5A3A14"/>
+    <circle cx="360" cy="330" r="8" fill="#5A3A14"/>
+    <polygon points="315,360 335,360 325,380" fill="#5A3A14"/>
+  </g>
+  <text x="325" y="800" text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="32" fill="#8A5A1C">Origami Fox</text>
+  <g transform="translate(500,60) rotate(-8)">
+    <text text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="17" fill="#C9821C" opacity="0.6" letter-spacing="2">PLACEHOLDER ART</text>
+  </g>
+</svg>

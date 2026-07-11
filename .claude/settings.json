@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --check:*)",
+      "Bash(npm test:*)",
+      "Bash(npm run build:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(curl http://localhost:*)"
+    ],
+    "deny": [
+      "Read(.env*)",
+      "Read(.secrets/**)",
+      "Read(secrets/**)",
+      "Read(imports/**)",
+      "Read(private-media/**)",
+      "Read(originals/**)",
+      "Bash(gh repo edit:*)",
+      "Bash(npm install:*)",
+      "Bash(npx:*)",
+      "Bash(rm -rf:*)"
+    ]
+  }
+}

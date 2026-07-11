@@ -1,11 +1,11 @@
 {
-  "name": "gallery",
-  "version": "1.0.0",
+  "name": "kais-creations",
+  "version": "2.0.0",
+  "description": "Static gallery + local-only content manager for Kai's Lego builds, paper crafts, and art.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "manager": "node manager-server.js"
   },
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+  "dependencies": {}
 }

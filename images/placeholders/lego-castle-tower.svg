@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 900">
+  <defs>
+    <linearGradient id="bgc1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDEAE5"/>
+      <stop offset="1" stop-color="#FBD4CB"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="900" fill="url(#bgc1)"/>
+  <!-- tower body -->
+  <g>
+    <rect x="220" y="360" width="260" height="440" rx="10" fill="#E8412C"/>
+    <rect x="220" y="360" width="260" height="440" rx="10" fill="none" stroke="#B92E1D" stroke-width="6"/>
+    <!-- brick studs -->
+    <g fill="#F26852">
+      <circle cx="260" cy="400" r="16"/><circle cx="310" cy="400" r="16"/><circle cx="360" cy="400" r="16"/><circle cx="410" cy="400" r="16"/><circle cx="460" cy="400" r="16"/>
+    </g>
+    <!-- brick rows -->
+    <g stroke="#B92E1D" stroke-width="4" opacity="0.5">
+      <line x1="220" y1="460" x2="480" y2="460"/>
+      <line x1="220" y1="540" x2="480" y2="540"/>
+      <line x1="220" y1="620" x2="480" y2="620"/>
+      <line x1="220" y1="700" x2="480" y2="700"/>
+      <line x1="350" y1="460" x2="350" y2="540"/>
+      <line x1="290" y1="540" x2="290" y2="620"/>
+      <line x1="410" y1="540" x2="410" y2="620"/>
+      <line x1="350" y1="620" x2="350" y2="700"/>
+    </g>
+    <!-- window -->
+    <rect x="310" y="600" width="80" height="100" rx="14" fill="#FFF3EE"/>
+  </g>
+  <!-- turret top -->
+  <g>
+    <rect x="240" y="260" width="220" height="110" rx="8" fill="#F4A227"/>
+    <rect x="240" y="200" width="36" height="70" fill="#F4A227"/>
+    <rect x="332" y="200" width="36" height="70" fill="#F4A227"/>
+    <rect x="424" y="200" width="36" height="70" fill="#F4A227"/>
+    <circle cx="280" cy="300" r="14" fill="#FFD98A"/>
+    <circle cx="330" cy="300" r="14" fill="#FFD98A"/>
+    <circle cx="380" cy="300" r="14" fill="#FFD98A"/>
+    <circle cx="430" cy="300" r="14" fill="#FFD98A"/>
+  </g>
+  <!-- flag -->
+  <line x1="350" y1="200" x2="350" y2="130" stroke="#5A4632" stroke-width="6"/>
+  <path d="M350 130 L420 150 L350 170 Z" fill="#2F8FE0"/>
+  <text x="350" y="850" text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="34" fill="#8A2E1D">Lego Castle Tower</text>
+  <g transform="translate(350,60) rotate(-8)">
+    <text text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="22" fill="#B92E1D" opacity="0.55" letter-spacing="2">PLACEHOLDER ART</text>
+  </g>
+</svg>

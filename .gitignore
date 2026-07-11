@@ -1,0 +1,30 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+.secrets/
+secrets/
+!docs/SECRETS.md
+*.key
+*.pem
+*.p8
+*.p12
+
+# Private/unapproved source media and imports
+imports/
+private-media/
+originals/
+*.xmp
+
+# Dependencies/build output
+node_modules/
+dist/
+release/
+.cache/
+
+# Local tooling/scratch
+.claude/settings.local.json
+temp/
+*.log
+.DS_Store
+Thumbs.db

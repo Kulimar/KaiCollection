@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgc4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF2DE"/>
+      <stop offset="1" stop-color="#FCE0AE"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgc4)"/>
+  <g>
+    <path d="M400 120 L560 260 L520 460 L400 500 L280 460 L240 260 Z" fill="#F4A227" stroke="#C9821C" stroke-width="6"/>
+    <path d="M330 200 L400 150 L470 200 L440 260 L360 260 Z" fill="#FBC968"/>
+    <circle cx="350" cy="300" r="26" fill="#FFF6E6"/>
+    <circle cx="450" cy="300" r="26" fill="#FFF6E6"/>
+    <circle cx="350" cy="300" r="12" fill="#8A5A1C"/>
+    <circle cx="450" cy="300" r="12" fill="#8A5A1C"/>
+    <path d="M340 380 Q400 430 460 380" stroke="#8A5A1C" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M240 260 L160 220 L220 300 Z" fill="#E8412C"/>
+    <path d="M560 260 L640 220 L580 300 Z" fill="#E8412C"/>
+    <path d="M400 500 L370 560 L430 560 Z" fill="#C9821C"/>
+  </g>
+  <text x="400" y="560" text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="34" fill="#8A5A1C">Paper Dragon Mask</text>
+  <g transform="translate(650,60) rotate(-8)">
+    <text text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="18" fill="#C9821C" opacity="0.6" letter-spacing="2">PLACEHOLDER ART</text>
+  </g>
+</svg>

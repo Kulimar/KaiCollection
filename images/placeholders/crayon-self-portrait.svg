@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 800">
+  <defs>
+    <linearGradient id="bgc8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF4FF"/>
+      <stop offset="1" stop-color="#CFE7FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="650" height="800" fill="url(#bgc8)"/>
+  <g>
+    <circle cx="325" cy="330" r="150" fill="#FBD9A5"/>
+    <circle cx="325" cy="330" r="150" fill="none" stroke="#E8412C" stroke-width="6"/>
+    <path d="M190 260 Q325 130 460 260" stroke="#5A3A14" stroke-width="24" fill="none" stroke-linecap="round"/>
+    <circle cx="270" cy="320" r="18" fill="#2F8FE0"/>
+    <circle cx="380" cy="320" r="18" fill="#2F8FE0"/>
+    <circle cx="270" cy="320" r="7" fill="#12324D"/>
+    <circle cx="380" cy="320" r="7" fill="#12324D"/>
+    <path d="M300 380 q25 30 50 0" stroke="#B92E1D" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <circle cx="230" cy="370" r="18" fill="#F4A227" opacity="0.55"/>
+    <circle cx="420" cy="370" r="18" fill="#F4A227" opacity="0.55"/>
+  </g>
+  <g fill="#E8412C">
+    <path d="M175 480 Q325 560 475 480 L475 700 Q325 760 175 700 Z"/>
+  </g>
+  <g stroke="#9B5DE0" stroke-width="5" fill="none" opacity="0.7">
+    <path d="M60 140 q30 -40 60 0"/>
+    <path d="M520 150 q30 -40 60 0"/>
+  </g>
+  <text x="325" y="770" text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="30" fill="#1E5C99">Crayon Self-Portrait</text>
+  <g transform="translate(500,60) rotate(-8)">
+    <text text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="17" fill="#1E6FB8" opacity="0.55" letter-spacing="2">PLACEHOLDER ART</text>
+  </g>
+</svg>

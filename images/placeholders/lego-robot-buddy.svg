@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+  <defs>
+    <linearGradient id="bgc3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDEAE5"/>
+      <stop offset="1" stop-color="#FBD4CB"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#bgc3)"/>
+  <g>
+    <rect x="230" y="150" width="240" height="180" rx="24" fill="#E8412C"/>
+    <rect x="230" y="150" width="240" height="180" rx="24" fill="none" stroke="#B92E1D" stroke-width="6"/>
+    <circle cx="300" cy="230" r="22" fill="#FFF3EE"/>
+    <circle cx="400" cy="230" r="22" fill="#FFF3EE"/>
+    <circle cx="300" cy="230" r="10" fill="#2F8FE0"/>
+    <circle cx="400" cy="230" r="10" fill="#2F8FE0"/>
+    <rect x="320" y="280" width="60" height="14" rx="7" fill="#B92E1D"/>
+    <rect x="250" y="330" width="200" height="220" rx="26" fill="#F4A227"/>
+    <rect x="250" y="330" width="200" height="220" rx="26" fill="none" stroke="#C9821C" stroke-width="6"/>
+    <circle cx="350" cy="420" r="30" fill="#FBD87A"/>
+    <rect x="150" y="350" width="70" height="160" rx="20" fill="#E8412C"/>
+    <rect x="480" y="350" width="70" height="160" rx="20" fill="#E8412C"/>
+    <rect x="280" y="560" width="60" height="90" rx="14" fill="#5A4632"/>
+    <rect x="360" y="560" width="60" height="90" rx="14" fill="#5A4632"/>
+    <line x1="350" y1="130" x2="350" y2="90" stroke="#5A4632" stroke-width="8"/>
+    <circle cx="350" cy="80" r="16" fill="#2F8FE0"/>
+  </g>
+  <text x="350" y="670" text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="32" fill="#8A2E1D">Lego Robot Buddy</text>
+  <g transform="translate(500,50) rotate(-8)">
+    <text text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="18" fill="#B92E1D" opacity="0.55" letter-spacing="2">PLACEHOLDER ART</text>
+  </g>
+</svg>
