@@ -114,8 +114,8 @@
   }
   function escapeAttr(str) { return escapeHtml(str); }
 
-  // Slideshow: a line under the lightbox drains over 30s, then auto-advances.
-  const SLIDESHOW_MS = 30000;
+  // Slideshow: a line under the lightbox drains over 10s, then auto-advances.
+  const SLIDESHOW_MS = 10000;
   let slideshowRaf = null;
 
   function startSlideshowTimer() {
