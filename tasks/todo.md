@@ -6,7 +6,7 @@ Newest on top. No building, photo import, push, or publication before the releva
 - [x] Name and add both Pokemon build photos with their original capture dates.
 - [x] Create metadata-free JPEGs and thumbnails; validate the manifest and desktop/phone display.
 - [x] Preserve the unchanged HEIC originals in sibling `KaiWebsite/`.
-- [ ] Publish the updated gallery to `gh-pages` and verify the live page.
+- [x] Publish the updated gallery to `gh-pages` and verify the live page (44 items; both new thumbnails and full-size files match local copies).
 
 ## Now — discovery / approval gate
 - [x] Clone existing `Kulimar/KaiCollection` into the Kai workspace without modifying raw `KaiWebsite/` media.

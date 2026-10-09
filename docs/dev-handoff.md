@@ -17,6 +17,11 @@ Living log. Newest session on top: what changed, what's live, what's next, what 
 - Browser checks passed for both thumbnails and full-size lightbox images, search, newest-first sorting, keyboard navigation, and narrow phone / desktop layouts.
 - Publication uses only the existing gallery include list; manager and raw media remain outside Pages output.
 
+**Current state**
+- Published at https://kulimar.github.io/KaiCollection/ via `gh-pages` commit `6270545`; GitHub Pages deployment completed successfully.
+- Live manifest contains 44 items. All four new JPEG URLs return the exact bytes of the verified local derivatives; both new cards are visible in the published gallery.
+- Local checkout remains on `main`. Originals are preserved outside the repository, and generated conversion scratch files were removed.
+
 ---
 
 ## 2026-07-10 (later 4) — Volume control, slideshow timer, first publish
