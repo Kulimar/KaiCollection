@@ -2,6 +2,11 @@
 
 Root-cause notes so we do not relearn the same thing. Newest on top; review at session start; append after every correction.
 
+## 2026-10-09 — A successful HEIC decode can return only one image tile
+**Symptom:** FFmpeg exited successfully for both new HEIC files but produced a square crop of the carpet rather than the complete photo.
+**Root cause:** These HEIC files store the primary photo as a tile grid; the default FFmpeg image stream decoded only the first tile.
+**Fix / rule:** Inspect decoded dimensions and the actual image before generating derivatives. Windows' PresentationCore BitmapDecoder returned the complete 4032x3024 primary images; use that decoder for these files and re-encode metadata-free pixels for publication.
+
 ## 2026-07-10 — Pages source must be checked before pushing private code to main
 **Symptom:** GitHub Pages was already enabled and serving from `main`, so pushing the manager to `main` would have briefly published it.
 **Root cause:** Assumed Pages was unconfigured because no publish decision existed; the legacy repo had Pages on `main` all along.

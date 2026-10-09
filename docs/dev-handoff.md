@@ -4,6 +4,21 @@ Living log. Newest session on top: what changed, what's live, what's next, what 
 
 ---
 
+## 2026-10-09 — Two new Pokemon build photos
+
+**What changed**
+- Added "Bulbasaur, Ivysaur and Venusaur" (IMG_6856.HEIC) and "Venusaur and Friends — Side View" (IMG_6857.HEIC) as Lego gallery items 43 and 44. Both display their original capture date, 2026-10-06.
+- Converted the complete HEIC images with Windows' BitmapDecoder, then generated 1600px JPEGs and 700px thumbnails with Pillow. Verified all four derivatives have no EXIF or XMP metadata.
+- Moved the two unchanged HEIC originals into sibling `../KaiWebsite/`, preserving their original filenames and verifying SHA-256 hashes after the move.
+- User explicitly requested adding these two photos and publishing the updated GitHub Pages site. Pages source was checked: `gh-pages`, root directory.
+
+**Verification**
+- All prior 42 manifest entries remain unchanged; 44 unique entries and all referenced image files validated independently.
+- Browser checks passed for both thumbnails and full-size lightbox images, search, newest-first sorting, keyboard navigation, and narrow phone / desktop layouts.
+- Publication uses only the existing gallery include list; manager and raw media remain outside Pages output.
+
+---
+
 ## 2026-07-10 (later 4) — Volume control, slideshow timer, first publish
 
 **What changed**

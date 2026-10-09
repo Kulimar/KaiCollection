@@ -2,6 +2,12 @@
 
 Newest on top. No building, photo import, push, or publication before the relevant approval gates.
 
+## 2026-10-09 — Two new photos (user authorized import and publication)
+- [x] Name and add both Pokemon build photos with their original capture dates.
+- [x] Create metadata-free JPEGs and thumbnails; validate the manifest and desktop/phone display.
+- [x] Preserve the unchanged HEIC originals in sibling `KaiWebsite/`.
+- [ ] Publish the updated gallery to `gh-pages` and verify the live page.
+
 ## Now — discovery / approval gate
 - [x] Clone existing `Kulimar/KaiCollection` into the Kai workspace without modifying raw `KaiWebsite/` media.
 - [x] Scaffold standard project docs/settings from the new-project framework.

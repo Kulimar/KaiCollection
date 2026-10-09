@@ -708,6 +708,44 @@
       "image": "images/kai/small-toy-portrait.jpg",
       "thumb": "images/kai/thumbs/small-toy-portrait.jpg",
       "alt": "Kai's Small Toy Portrait"
+    },
+    {
+      "id": "bulbasaur-ivysaur-and-venusaur",
+      "title": "Bulbasaur, Ivysaur and Venusaur",
+      "category": "lego",
+      "date": "2026-10-06",
+      "dateSource": "exif",
+      "tags": [
+        "pokemon",
+        "bulbasaur",
+        "ivysaur",
+        "venusaur",
+        "evolution"
+      ],
+      "order": 43,
+      "featured": false,
+      "image": "images/kai/bulbasaur-ivysaur-and-venusaur.jpg",
+      "thumb": "images/kai/thumbs/bulbasaur-ivysaur-and-venusaur.jpg",
+      "alt": "Brick-built Venusaur with a red flower and green leaves, alongside smaller Ivysaur and Bulbasaur figures."
+    },
+    {
+      "id": "venusaur-and-friends-side-view",
+      "title": "Venusaur and Friends — Side View",
+      "category": "lego",
+      "date": "2026-10-06",
+      "dateSource": "exif",
+      "tags": [
+        "pokemon",
+        "venusaur",
+        "bulbasaur",
+        "ivysaur",
+        "side-view"
+      ],
+      "order": 44,
+      "featured": false,
+      "image": "images/kai/venusaur-and-friends-side-view.jpg",
+      "thumb": "images/kai/thumbs/venusaur-and-friends-side-view.jpg",
+      "alt": "Side view of a brick-built Venusaur with its open mouth and flower, beside smaller Ivysaur and Bulbasaur figures."
     }
   ]
 }
